@@ -1,6 +1,10 @@
 from fractions import Fraction
+import controller
+
 def view_data(data):
     print(data)
+    if input('Want more computing?  (y/any key) ').lower() == 'y':
+        controller.button_click()
 
 def get_value():
     while True:
