@@ -3,7 +3,7 @@ import controller
 
 def view_data(data):
     print(data)
-    if input('Do You want more compute? (y/any key) ').lower() == 'y':
+    if input('Want more computing?  (y/any key) ').lower() == 'y':
         controller.button_click()
 
 def get_value():
