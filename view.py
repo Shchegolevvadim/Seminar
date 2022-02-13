@@ -1,6 +1,8 @@
 from fractions import Fraction
 def view_data(data):
     print(data)
+    if input('Do You want more compute? (y/any key) ').lower() == 'y':
+        import main
 
 def get_value():
     while True:
