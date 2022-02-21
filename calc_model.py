@@ -1,4 +1,4 @@
-from fractions import Fraction
+from fractions import Fraction #вызов функции дробей
 x = 0
 y = 0
 
